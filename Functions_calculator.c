@@ -24,7 +24,7 @@ int divide(int a, int b){
 }
 
 int main() {
-    // Your code here
+    
     int a, b;
     char op;
   
@@ -32,7 +32,7 @@ int main() {
     scanf("%d %d %c", &a, &b, &op);
 
     if(op == '+'){
-        printf("%d", add(a, b));
+      printf("%d", add(a, b));
     } else if (op == '-'){
         printf("%d", substract(a, b));
     } else if (op == '*'){
